@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/index.js:13
+msgid "Placeholder for the textarea"
+msgstr ""
+
+#: src/index.js:65
+msgid "Envoyer des Trackbacks"
+msgstr ""
+
+#: src/index.js:76
+msgid "Gérer les Trackbacks"
+msgstr ""
+
+#: src/index.js:80
+msgid "Trackbacks"
+msgstr ""

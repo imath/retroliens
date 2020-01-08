@@ -1,0 +1,36 @@
+{
+  "name": "retroliens",
+  "version": "1.0.0-alpha",
+  "description": "Adds a new sidebar to the WordPress Blocks Editor to manage trackbacks",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel watch src/*",
+    "build": "parcel build src/*",
+    "wpcs": "./vendor/bin/phpcs class-retroliens.php inc/*.php --standard=WordPress",
+    "pot": "./vendor/bin/wp i18n make-pot . languages/retroliens.pot",
+    "win:wpcs": ".\\vendor\\bin\\phpcs class-retroliens.php .\\inc --extensions=php --standard=WordPress",
+    "win:pot": ".\\vendor\\bin\\wp i18n make-pot . languages/retroliens.pot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imath/retroliens.git"
+  },
+  "keywords": [
+    "wordpress",
+    "editor",
+    "trackback"
+  ],
+  "author": "imath",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/imath/retroliens/issues"
+  },
+  "homepage": "https://github.com/imath/retroliens#readme",
+  "dependencies": {
+    "core-js": "^3.6.2",
+    "@babel/core": "^7.6.4",
+    "@wordpress/babel-plugin-makepot": "^3.2.1",
+    "@wordpress/babel-preset-default": "^4.6.2",
+    "parcel-bundler": "^1.12.4"
+  }
+}

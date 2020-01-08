@@ -1,0 +1,14 @@
+{
+	"name": "imath/retroliens",
+	"description": "Adds a new sidebar to the WordPress Blocks Editor to manage trackbacks",
+	"type": "wordpress-plugin",
+	"require": {
+	  "squizlabs/php_codesniffer" : "^3.3.1",
+	  "wp-cli/wp-cli-bundle": "*"
+	},
+	"require-dev": {
+	  "dealerdirect/phpcodesniffer-composer-installer": "*",
+	  "phpcompatibility/phpcompatibility-wp" : "*",
+	  "wp-coding-standards/wpcs": "*"
+	}
+}
