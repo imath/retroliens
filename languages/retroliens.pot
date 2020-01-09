@@ -7,14 +7,14 @@ msgstr ""
 msgid "Placeholder for the textarea"
 msgstr ""
 
-#: src/index.js:65
+#: src/index.js:44
 msgid "Envoyer des Trackbacks"
 msgstr ""
 
-#: src/index.js:76
+#: src/index.js:55
 msgid "Gérer les Trackbacks"
 msgstr ""
 
-#: src/index.js:80
+#: src/index.js:59
 msgid "Trackbacks"
 msgstr ""
