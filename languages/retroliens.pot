@@ -1,12 +1,88 @@
+# Copyright (C) 2020 imath
+# This file is distributed under the same license as the Rétroliens plugin.
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=utf-8\n"
-"X-Generator: babel-plugin-makepot\n"
+"Project-Id-Version: Rétroliens 1.0.0-alpha\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/retroliens\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-01-10T05:57:49+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: retroliens\n"
 
+#. Plugin Name of the plugin
+#: dist/index.js:673
 #: src/index.js:25
+#: dist/index.js:440
 msgid "Rétroliens"
 msgstr ""
 
+#. Plugin URI of the plugin
+msgid "https://github.com/imath/retroliens"
+msgstr ""
+
+#. Description of the plugin
+msgid "Ajoute une barre latérale à l'éditeur de blocs pour envoyer des rétroliens."
+msgstr ""
+
+#. Author of the plugin
+msgid "imath"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/imath"
+msgstr ""
+
+#: inc/functions.php:162
+msgid "Liste des rétroliens à notifier"
+msgstr ""
+
+#: inc/functions.php:181
+msgid "Liste des rétroliens notifiés"
+msgstr ""
+
+#: dist/index.js:343
+#: src/components/add-trackbacks.js:49
+#: dist/index.js:178
+msgid "URL de destination"
+msgstr ""
+
+#: dist/index.js:357
+#: src/components/add-trackbacks.js:57
+#: dist/index.js:186
+msgid "Ajouter"
+msgstr ""
+
+#: dist/index.js:361
+#: src/components/add-trackbacks.js:60
+#: dist/index.js:189
+msgid "Un rétrolien est une manière de notifier les anciens systèmes de blog que vous avez fait un lien vers eux. Si vous faites des liens vers des sites WordPress, ils seront notifiés automatiquement à l’aide des pings, sans que vous n’ayez rien à faire."
+msgstr ""
+
+#: dist/index.js:364
+#: src/components/add-trackbacks.js:63
+#: dist/index.js:192
+msgid "En savoir plus sur les pings (en)."
+msgstr ""
+
+#: dist/index.js:515
+#: src/components/trackbacks-to-send.js:90
+#: dist/index.js:301
+msgid "Rétroliens à envoyer"
+msgstr ""
+
+#: dist/index.js:628
+#: src/components/sent-trackbacks.js:60
+#: dist/index.js:392
+msgid "Rétroliens envoyés"
+msgstr ""
+
+#: dist/index.js:676
 #: src/index.js:30
+#: dist/index.js:445
 msgid "Envoyer des rétroliens"
 msgstr ""

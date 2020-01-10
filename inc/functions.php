@@ -36,6 +36,7 @@ add_action( 'init', 'retroliens_register_script', 7 );
  */
 function retroliens_enqueue_script() {
 	wp_enqueue_script( 'retroliens' );
+	wp_set_script_translations( 'retroliens', 'retroliens', retroliens()->lang_path );
 }
 add_action( 'enqueue_block_editor_assets', 'retroliens_enqueue_script' );
 

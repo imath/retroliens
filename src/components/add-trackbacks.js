@@ -54,13 +54,13 @@ class SendTrackbacks extends Component {
 					} }
 				/>
 				<Button isPrimary={ true } isLarge={ true } onClick={ ( e ) => this.addTrackback( e ) }>
-					{ __( 'Ajouter', 'risk-ops' ) }
+					{ __( 'Ajouter', 'retroliens' ) }
 				</Button>
 				<p className="description">
 					<Dashicon icon="info" /> { __( 'Un rétrolien est une manière de notifier les anciens systèmes de blog que vous avez fait un lien vers eux. Si vous faites des liens vers des sites WordPress, ils seront notifiés automatiquement à l’aide des pings, sans que vous n’ayez rien à faire.', 'retroliens' ) }
 					<br/>
 					<ExternalLink href="https://wordpress.org/support/article/introduction-to-blogging/#comments" hrefLang="en">
-						En savoir plus sur les pings (en).
+						{ __( 'En savoir plus sur les pings (en).', 'retroliens' ) }
 					</ExternalLink>
 				</p>
 			</div>

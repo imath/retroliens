@@ -7,7 +7,8 @@
     "start": "parcel watch src/*",
     "build": "parcel build src/*",
     "wpcs": "./vendor/bin/phpcs class-retroliens.php inc/*.php --standard=WordPress",
-    "pot": "./vendor/bin/wp i18n make-pot . languages/retroliens.pot",
+		"pot": "./vendor/bin/wp i18n make-pot . languages/retroliens.pot",
+		"po2json": "./vendor/bin/wp i18n make-json languages",
     "win:wpcs": ".\\vendor\\bin\\phpcs class-retroliens.php .\\inc --extensions=php --standard=WordPress",
     "win:pot": ".\\vendor\\bin\\wp i18n make-pot . languages/retroliens.pot"
   },
