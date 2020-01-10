@@ -29,6 +29,7 @@ function RetroliensSidebar() {
 				<PanelBody
 					title={ __( 'Envoyer des rétroliens', 'retroliens' ) }
 					initialOpen={ true }
+					className="retroliens-sidebar-panel-body add-retroliens"
 				>
 					<PanelRow>
 						<AddTrackbacks />

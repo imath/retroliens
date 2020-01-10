@@ -59,6 +59,7 @@ class ViewSentTrackbacks extends Component {
 				<PanelBody
 					title={ __( 'Rétroliens envoyés', 'retroliens' ) }
 					initialOpen={ false }
+					className="retroliens-sidebar-panel-body added-retroliens"
 				>
 					<PanelRow>
 						<ul>{ pingedList }</ul>

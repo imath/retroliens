@@ -26,6 +26,13 @@ function retroliens_register_script() {
 		$r->version,
 		true
 	);
+
+	wp_register_style(
+		'retroliens',
+		$r->dist_url . 'styles.css',
+		array(),
+		$r->version
+	);
 }
 add_action( 'init', 'retroliens_register_script', 7 );
 
@@ -35,6 +42,7 @@ add_action( 'init', 'retroliens_register_script', 7 );
  * @since  1.0.0
  */
 function retroliens_enqueue_script() {
+	wp_enqueue_style( 'retroliens' );
 	wp_enqueue_script( 'retroliens' );
 	wp_set_script_translations( 'retroliens', 'retroliens', retroliens()->lang_path );
 }

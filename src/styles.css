@@ -1,0 +1,27 @@
+.retroliens-sidebar-panel-body button.is-primary {
+    margin: 1em 0
+}
+
+.retroliens-sidebar-panel-body .dashicon {
+    vertical-align: bottom;
+}
+
+.retroliens-sidebar-panel-body.added-retroliens,
+.retroliens-sidebar-panel-body.manage-retroliens {
+    word-break: break-all;
+}
+
+.retroliens-sidebar-panel-body.added-retroliens li,
+.retroliens-sidebar-panel-body.manage-retroliens li {
+    margin-left: 1em;
+}
+
+.retroliens-sidebar-panel-body.added-retroliens .dashicons-yes,
+.retroliens-sidebar-panel-body.manage-retroliens .dashicons-trash {
+    color: #006505;
+    margin-left: -1.8em;
+}
+
+.retroliens-sidebar-panel-body.manage-retroliens .dashicons-trash {
+	color: #a00;
+}

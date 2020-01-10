@@ -89,6 +89,7 @@ class ManageTrackbacks extends Component {
 				<PanelBody
 					title={ __( 'Rétroliens à envoyer', 'retroliens' ) }
 					initialOpen={ false }
+					className="retroliens-sidebar-panel-body manage-retroliens"
 				>
 					<PanelRow>
 						<ul>{ trackbacksList }</ul>
