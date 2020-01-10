@@ -72,6 +72,7 @@ if ( ! class_exists( 'Retroliens' ) ) :
 
 			require $inc_path . 'globals.php';
 			require $inc_path . 'functions.php';
+			require $inc_path . 'template.php';
 		}
 	}
 
