@@ -3,7 +3,7 @@
  * Functions
  *
  * @package   retroliens
- * @subpackage \inc\globals
+ * @subpackage \inc\functions
  */
 
 // Exit if accessed directly.
@@ -44,8 +44,9 @@ add_action( 'enqueue_block_editor_assets', 'retroliens_enqueue_script' );
  *
  * @since 1.0.0
  *
- * @param array $prepared Prepared response array.
- * @return array          The list of trackbacks to ping.
+ * @param array  $prepared Prepared response array.
+ * @param string $field    The name of the REST field.
+ * @return array           The list of trackbacks to ping.
  */
 function retroliens_get_trackbacks( $prepared, $field ) {
 	$retval = array();
