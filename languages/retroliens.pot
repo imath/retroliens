@@ -3,34 +3,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "X-Generator: babel-plugin-makepot\n"
 
-#: src/index.js:155
-msgid "Rétroliens à envoyer"
-msgstr ""
-
-#: src/index.js:229
-msgid "Rétroliens envoyés"
-msgstr ""
-
-#: src/index.js:255
+#: src/index.js:25
 msgid "Rétroliens"
 msgstr ""
 
-#: src/index.js:260
+#: src/index.js:30
 msgid "Envoyer des rétroliens"
-msgstr ""
-
-#: src/index.js:54
-msgid "URL de destination"
-msgstr ""
-
-#: src/index.js:62
-msgid "Ajouter"
-msgstr ""
-
-#: src/index.js:65
-msgid ""
-"Un rétrolien est une manière de notifier les anciens systèmes de blog que "
-"vous avez fait un lien vers eux. Si vous faites des liens vers des sites "
-"WordPress, ils seront notifiés automatiquement à l’aide des pings, sans que "
-"vous n’ayez rien à faire."
 msgstr ""
