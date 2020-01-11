@@ -11,7 +11,7 @@
  * Plugin Name:       Rétroliens
  * Plugin URI:        https://github.com/imath/retroliens
  * Description:       Ajoute une barre latérale à l'éditeur de blocs pour envoyer des rétroliens.
- * Version:           1.0.0-alpha
+ * Version:           1.0.0
  * Author:            imath
  * Author URI:        https://github.com/imath
  * Text Domain:       retroliens

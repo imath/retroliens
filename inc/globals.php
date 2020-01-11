@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 function retroliens_set_globals() {
 	$r = retroliens();
 
-	$r->version = '1.0.0-alpha';
+	$r->version = '1.0.0';
 
 	$r->inc_path  = plugin_dir_path( __FILE__ );
 	$r->js_url    = plugins_url( 'js/', dirname( __FILE__ ) );

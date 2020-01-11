@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Rétroliens 1.0.0-alpha\n"
+"Project-Id-Version: Rétroliens 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/retroliens\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-01-10T05:57:49+00:00\n"
-"PO-Revision-Date: 2020-01-10 06:59+0100\n"
+"POT-Creation-Date: 2020-01-11T10:08:35+00:00\n"
+"PO-Revision-Date: 2020-01-11 11:10+0100\n"
 "Language: en\n"
 "X-Generator: Poedit 2.2.4\n"
 "X-Domain: retroliens\n"
@@ -30,10 +30,10 @@ msgstr "imath"
 msgid "https://github.com/imath"
 msgstr "https://github.com/imath"
 
-#: inc/functions.php:162
+#: inc/functions.php:170
 msgid "Liste des rétroliens à notifier"
 msgstr "List of trackbacks to send notifications for"
 
-#: inc/functions.php:181
+#: inc/functions.php:189
 msgid "Liste des rétroliens notifiés"
 msgstr "List of notified trackbacks"
