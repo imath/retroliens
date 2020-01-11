@@ -5,17 +5,11 @@ const { createElement } = wp.element;
 const { registerPlugin } = wp.plugins;
 const { PluginSidebar } = wp.editPost;
 const { __ } = wp.i18n;
-const {
-	Panel,
-	PanelBody,
-	PanelRow,
-} = wp.components;
 
 /**
  * Internal dependencies.
  */
-import AddTrackbacks from './components/add-trackbacks';
-import TrackbacksToSend from './components/trackbacks-to-send';
+import TrackbacksSend from './components/trackbacks-send';
 import SentTrackbacks from './components/sent-trackbacks';
 
 function RetroliensSidebar() {
@@ -25,18 +19,7 @@ function RetroliensSidebar() {
 			title={ __( 'Rétroliens', 'retroliens' ) }
 			icon='admin-links'
 		>
-			<Panel>
-				<PanelBody
-					title={ __( 'Envoyer des rétroliens', 'retroliens' ) }
-					initialOpen={ true }
-					className="retroliens-sidebar-panel-body add-retroliens"
-				>
-					<PanelRow>
-						<AddTrackbacks />
-					</PanelRow>
-				</PanelBody>
-			</Panel>
-			<TrackbacksToSend />
+			<TrackbacksSend />
 			<SentTrackbacks />
 		</PluginSidebar>
 	);
