@@ -45,7 +45,7 @@ git clean -xdf
 
 # Run the build
 status "Installing dependencies..."
-composer intall
+composer install
 npm install
 status "Generating build..."
 npm run build
