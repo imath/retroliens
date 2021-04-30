@@ -29,11 +29,9 @@
   },
   "homepage": "https://github.com/imath/retroliens#readme",
   "dependencies": {
-    "core-js": "^3.6.2",
-    "@babel/core": "^7.6.4",
+    "@babel/core": "^7.11.6",
     "@wordpress/babel-plugin-makepot": "^3.2.1",
-    "@wordpress/babel-preset-default": "^4.6.2",
-    "parcel-bundler": "^1.12.4",
-    "node-forge": ">=0.10.0"
+    "@wordpress/babel-preset-default": "^5.0.1",
+    "parcel-bundler": "~1.12.5"
   }
 }
